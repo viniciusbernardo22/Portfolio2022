@@ -26,7 +26,7 @@ function InformationContainer() {
     <section id="information">
       {Informations.map(info => (
         <div className="info-card">
-          <a id={info.id}>{info.icon}</a>
+          <a id={info.id}> {info.icon}</a>
 
           <div>
             <h3>{info.name}</h3>
