@@ -5,7 +5,8 @@
   "homepage": "https://viniciusbernardo22.github.io/Portfolio2022",
   "type": "module",
   "scripts": {
-    "start": "vite start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
